@@ -1,0 +1,110 @@
+2018-01-15 22:16:57.143  INFO akaczmarek --- [           main] c.j.Application                          : Starting Application on akaczmarek with PID 16342 (/home/akaczmarek/IdeaProjects/restelklogger/target/classes started by akaczmarek in /home/akaczmarek/IdeaProjects/restelklogger)
+2018-01-15 22:16:57.146 DEBUG akaczmarek --- [           main] c.j.Application                          : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-01-15 22:16:57.146  INFO akaczmarek --- [           main] c.j.Application                          : No active profile set, falling back to default profiles: default
+2018-01-15 22:16:57.197  INFO akaczmarek --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cd3e762: startup date [Mon Jan 15 22:16:57 CET 2018]; root of context hierarchy
+2018-01-15 22:16:57.327  INFO akaczmarek --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.3.6.Final
+2018-01-15 22:16:57.887  INFO akaczmarek --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-15 22:16:57.893  INFO akaczmarek --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-01-15 22:16:57.895  INFO akaczmarek --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-15 22:16:57.934  INFO akaczmarek --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-01-15 22:16:57.934  INFO akaczmarek --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 739 ms
+2018-01-15 22:16:57.999  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-15 22:16:58.001  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-15 22:16:58.001  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-15 22:16:58.001  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-15 22:16:58.001  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-15 22:16:58.183  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cd3e762: startup date [Mon Jan 15 22:16:57 CET 2018]; root of context hierarchy
+2018-01-15 22:16:58.215  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public com.jawas.model.Greeting com.jawas.controller.GreetingController.greeting(java.lang.String)
+2018-01-15 22:16:58.217  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/planet/{id}]}" onto public com.jawas.model.Planet com.jawas.controller.PlanetController.planet(java.lang.Long)
+2018-01-15 22:16:58.218  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-15 22:16:58.219  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-15 22:16:58.235  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:16:58.235  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:16:58.254  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:16:58.325  INFO akaczmarek --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-15 22:16:58.334  INFO akaczmarek --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-15 22:16:58.338  INFO akaczmarek --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-01-15 22:16:58.342  INFO akaczmarek --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-01-15 22:16:58.350  INFO akaczmarek --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-15 22:16:58.352  INFO akaczmarek --- [           main] c.j.Application                          : Started Application in 1.36 seconds (JVM running for 1.932)
+2018-01-15 22:17:39.658  INFO akaczmarek --- [       Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cd3e762: startup date [Mon Jan 15 22:16:57 CET 2018]; root of context hierarchy
+2018-01-15 22:17:51.501  INFO akaczmarek --- [           main] c.j.Application                          : Starting Application on akaczmarek with PID 16481 (/home/akaczmarek/IdeaProjects/restelklogger/target/classes started by akaczmarek in /home/akaczmarek/IdeaProjects/restelklogger)
+2018-01-15 22:17:51.503 DEBUG akaczmarek --- [           main] c.j.Application                          : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-01-15 22:17:51.504  INFO akaczmarek --- [           main] c.j.Application                          : No active profile set, falling back to default profiles: default
+2018-01-15 22:17:51.541  INFO akaczmarek --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cd3e762: startup date [Mon Jan 15 22:17:51 CET 2018]; root of context hierarchy
+2018-01-15 22:17:51.663  INFO akaczmarek --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.3.6.Final
+2018-01-15 22:17:52.253  INFO akaczmarek --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-15 22:17:52.259  INFO akaczmarek --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-01-15 22:17:52.260  INFO akaczmarek --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-15 22:17:52.298  INFO akaczmarek --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-01-15 22:17:52.298  INFO akaczmarek --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 760 ms
+2018-01-15 22:17:52.362  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-15 22:17:52.366  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-15 22:17:52.366  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-15 22:17:52.367  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-15 22:17:52.367  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-15 22:17:52.548  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cd3e762: startup date [Mon Jan 15 22:17:51 CET 2018]; root of context hierarchy
+2018-01-15 22:17:52.581  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public com.jawas.model.Greeting com.jawas.controller.GreetingController.greeting(java.lang.String)
+2018-01-15 22:17:52.582  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/planet/{id}]}" onto public com.jawas.model.Planet com.jawas.controller.PlanetController.planet(java.lang.Long)
+2018-01-15 22:17:52.583  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-15 22:17:52.584  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-15 22:17:52.601  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:17:52.601  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:17:52.620  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:17:52.693  INFO akaczmarek --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-15 22:17:52.702  INFO akaczmarek --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-15 22:17:52.706  INFO akaczmarek --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-01-15 22:17:52.710  INFO akaczmarek --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-01-15 22:17:52.717  INFO akaczmarek --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-15 22:17:52.720  INFO akaczmarek --- [           main] c.j.Application                          : Started Application in 1.408 seconds (JVM running for 1.969)
+2018-01-15 22:17:57.832  INFO akaczmarek --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-15 22:17:57.832  INFO akaczmarek --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-15 22:17:57.839  INFO akaczmarek --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+2018-01-15 22:17:57.861  INFO akaczmarek --- [nio-8080-exec-1] c.j.c.PlanetController                   : com.jawas.model.Planet@6d9870de
+2018-01-15 22:17:58.005  INFO akaczmarek --- [nio-8080-exec-3] c.j.c.PlanetController                   : com.jawas.model.Planet@43f15c75
+2018-01-15 22:17:58.115  INFO akaczmarek --- [nio-8080-exec-4] c.j.c.PlanetController                   : com.jawas.model.Planet@6c1752cf
+2018-01-15 22:17:58.265  INFO akaczmarek --- [nio-8080-exec-6] c.j.c.PlanetController                   : com.jawas.model.Planet@41c32390
+2018-01-15 22:17:58.426  INFO akaczmarek --- [nio-8080-exec-8] c.j.c.PlanetController                   : com.jawas.model.Planet@54c1a0b7
+2018-01-15 22:17:58.564  INFO akaczmarek --- [io-8080-exec-10] c.j.c.PlanetController                   : com.jawas.model.Planet@1dd1b13c
+2018-01-15 22:17:58.733  INFO akaczmarek --- [nio-8080-exec-2] c.j.c.PlanetController                   : com.jawas.model.Planet@6bda0884
+2018-01-15 22:17:58.997  INFO akaczmarek --- [nio-8080-exec-4] c.j.c.PlanetController                   : com.jawas.model.Planet@62d0a13d
+2018-01-15 22:18:02.995 DEBUG akaczmarek --- [nio-8080-exec-6] c.j.c.GreetingController                 : Returned: com.jawas.model.Greeting@4d9b8973
+2018-01-15 22:18:33.876  INFO akaczmarek --- [       Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cd3e762: startup date [Mon Jan 15 22:17:51 CET 2018]; root of context hierarchy
+2018-01-15 22:18:33.879  INFO akaczmarek --- [       Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-15 22:18:52.903  INFO akaczmarek --- [           main] c.j.Application                          : Starting Application on akaczmarek with PID 16696 (/home/akaczmarek/IdeaProjects/restelklogger/target/classes started by akaczmarek in /home/akaczmarek/IdeaProjects/restelklogger)
+2018-01-15 22:18:52.905 DEBUG akaczmarek --- [           main] c.j.Application                          : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-01-15 22:18:52.906  INFO akaczmarek --- [           main] c.j.Application                          : No active profile set, falling back to default profiles: default
+2018-01-15 22:18:52.934  INFO akaczmarek --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@179ece50: startup date [Mon Jan 15 22:18:52 CET 2018]; root of context hierarchy
+2018-01-15 22:18:53.058  INFO akaczmarek --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.3.6.Final
+2018-01-15 22:18:53.577  INFO akaczmarek --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-15 22:18:53.583  INFO akaczmarek --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-01-15 22:18:53.583  INFO akaczmarek --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-15 22:18:53.621  INFO akaczmarek --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-01-15 22:18:53.621  INFO akaczmarek --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 689 ms
+2018-01-15 22:18:53.687  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-15 22:18:53.689  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-15 22:18:53.689  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-15 22:18:53.690  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-15 22:18:53.690  INFO akaczmarek --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-15 22:18:53.876  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@179ece50: startup date [Mon Jan 15 22:18:52 CET 2018]; root of context hierarchy
+2018-01-15 22:18:53.907  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public com.jawas.model.Greeting com.jawas.controller.GreetingController.greeting(java.lang.String)
+2018-01-15 22:18:53.909  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/planet/{id}]}" onto public com.jawas.model.Planet com.jawas.controller.PlanetController.planet(java.lang.Long)
+2018-01-15 22:18:53.910  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-15 22:18:53.910  INFO akaczmarek --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-15 22:18:53.926  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:18:53.927  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:18:53.945  INFO akaczmarek --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-15 22:18:54.016  INFO akaczmarek --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-15 22:18:54.025  INFO akaczmarek --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-15 22:18:54.029  INFO akaczmarek --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-01-15 22:18:54.032  INFO akaczmarek --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-01-15 22:18:54.039  INFO akaczmarek --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-15 22:18:54.042  INFO akaczmarek --- [           main] c.j.Application                          : Started Application in 1.319 seconds (JVM running for 2.246)
+2018-01-15 22:19:08.591  INFO akaczmarek --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-15 22:19:08.591  INFO akaczmarek --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-15 22:19:08.600  INFO akaczmarek --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+2018-01-15 22:19:08.618 DEBUG akaczmarek --- [nio-8080-exec-1] c.j.c.GreetingController                 : Returned: com.jawas.model.Greeting@651fee0c
+2018-01-15 22:19:08.754 DEBUG akaczmarek --- [nio-8080-exec-3] c.j.c.GreetingController                 : Returned: com.jawas.model.Greeting@52db053d
+2018-01-15 22:19:08.903  WARN akaczmarek --- [nio-8080-exec-5] c.j.c.GreetingController                 : Counter overhead!!
+2018-01-15 22:19:08.904 DEBUG akaczmarek --- [nio-8080-exec-5] c.j.c.GreetingController                 : Returned: com.jawas.model.Greeting@14de1b25
+2018-01-15 22:19:09.108 DEBUG akaczmarek --- [nio-8080-exec-7] c.j.c.GreetingController                 : Returned: com.jawas.model.Greeting@3c22bce6

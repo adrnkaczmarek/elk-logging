@@ -1,0 +1,7 @@
+filebeat.prospectors:
+- type: log
+  enabled: true
+  paths:
+    - /usr/src/app/example.log
+output.elasticsearch:
+  hosts: ["172.18.0.2:9200"]

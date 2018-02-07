@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="restelklogger:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="rest-elk-logger-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="restelklogger:war exploded" />
+    </root>
+  </artifact>
+</component>
